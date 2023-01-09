@@ -3,4 +3,7 @@ This website belongs to Zi Huang, PhD student at the [Department of Translation 
 
 This website demonstrates her current level of html and JavaScript programming, which is non-existent. This will change.
 
-If you wants to find her, just send an email to [first-name].[last-name]@upf.edu.
+If you want to find her, just send an email to [first-name].[last-name]@upf.edu.
+
+## The next time you see her outside Barcelona will be:
+2023.01.12-14 When she makes a presentation on "POSS*-ing* as Kimian states" at [NELS53](https://nels53.uni-goettingen.de/), University of Göttingen.
