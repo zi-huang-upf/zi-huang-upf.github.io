@@ -6,5 +6,4 @@ This website demonstrates my current level of html and JavaScript programming, w
 If you want to find me, just send an email to [first-name].[last-name]@upf.edu.
 
 ## Update:
-**2023.01.12-14** I will make an oral presentation on "POSS-*ing* as Kimian states" at [NELS53](https://nels53.uni-goettingen.de/), University of Göttingen.
-
+**2023.01.12-14** I will make an oral presentation on "POSS-*ing* as Kimian states" at [NELS53](https://nels53.uni-goettingen.de/), University of Göttingen. Here are [the slides](https://github.com/zi-huang-upf/zi-huang-upf.github.io/files/10408361/Zi.Huang.NELS.slides.pdf).
