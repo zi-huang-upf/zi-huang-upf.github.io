@@ -1,5 +1,6 @@
 header {
-  background-color: #f2f2f2;
+  background: url("../images/title-pic.png") no-repeat;
+  background-size: cover;
   border-bottom: 1px solid #ddd;
   padding: 20px 0;
 }
