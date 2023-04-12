@@ -1,4 +1,4 @@
-@import url('//fonts.googleapis.com/css2?family=EB+Garamond&family=Ma+Shan+Zheng&family=Montserrat:wght@300&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Ma+Shan+Zheng&family=Montserrat:wght@300&family=Sacramento&display=swap');
 
 header {
   background: url("../images/title-pic.png") no-repeat;
@@ -99,6 +99,18 @@ body {
 .main-content img {
   margin-right: 20px;
   float: left;
+}
+
+.noticecontainer{
+  width: 70%;
+  margin: auto;
+  padding: 20px 20px;
+  background-color: #b9c6c5;
+}
+
+.notice{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
 h2 {
