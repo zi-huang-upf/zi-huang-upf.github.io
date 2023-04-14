@@ -101,6 +101,29 @@ body {
   float: left;
 }
 
+.main-content p a:link{
+  text-decoration: none;
+  background-color: #b9c6c5;
+  color: black;
+}
+
+.main-content p a:visited{
+  text-decoration: none;
+  background-color: #debea9;
+  color: black;
+}
+
+.main-content p a:active{
+  text-decoration: none;
+  background-color: #dbdab0;
+  color: black;
+}
+
+::selection{
+  color:black;
+  background-color: #dbdab0;
+}
+
 .noticecontainer{
   width: 70%;
   margin: auto;
@@ -121,6 +144,14 @@ h2 {
 
 p {
   line-height: 1.5;
+}
+
+.pyear{
+  font-weight: bold;
+}
+
+.ptitle{
+  font-weight: bold;
 }
 
 footer {
