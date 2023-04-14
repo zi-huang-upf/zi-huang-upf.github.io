@@ -6,6 +6,7 @@
     <title>Zi Huang - Outside Academia</title>
     <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/life.css" />
   </head>
   <body>
     <header>
@@ -43,20 +44,44 @@
       </nav>
     </div>
     <div class="main-content">
-      <h2></h2>
       <div class="noticecontainer">
         <div class="notice">
-          This page is under construction. <br />
-          Meanwhile, I'm looking for a job as linguist/programmer/language
-          teacher. <br />
-          Do you mind taking a look at
-          <a href="files/CV-Zi-Huang-one-page.pdf">my one-page CV</a>?
+          I had some plans about CSS animations,<br />
+          but realized that I need JavaScript to make them.<br />
+          So... I'm figuring out some JavaScript now. <br />
+          <b
+            >Hover over secret elements to reveal answers to questions about
+            me!</b
+          >
         </div>
       </div>
-      <h2></h2>
+      <p class="question">
+        <span id="q-minesweeper">
+          Name one meaningless thing that I spent way too much time on.
+        </span>
+      </p>
+      <p class="answer" id="a-minesweeper">
+        Mineweeper. I started playing in December 2020 and I am a top 100 player
+        on Minesweeper.online as for April 2023.
+      </p>
+      <p class="question">
+        How many language courses have I finished on
+        <span id="q-duolingo">Duolingo</span>?
+      </p>
+      <p class="answer" id="a-duolingo">
+        Before the learning path update, I had finished Italian, Irish
+        (forgotten), Catalan, Hungarian (forgotten), Turkish (forgotten). At
+        some earlier point I had also finished French, but then the course
+        updated and I didn't bother to keep going. As for now, only the German
+        course is fully finished. I'm currently learning Esperanto, because I
+        want to keep my 1k+ day streak, but I don't have the bandwidth to learn
+        new words and grammar.
+      </p>
     </div>
+
     <footer>
       <p>This webpage was last updated in April 2023.</p>
     </footer>
+    <script src="js/life.js"></script>
   </body>
 </html>
