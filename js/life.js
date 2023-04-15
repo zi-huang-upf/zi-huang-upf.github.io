@@ -25,6 +25,15 @@ qClassical.addEventListener('click', function handleClick() {
     aClassical.style.visibility = 'visible';
 });
 
+const qFloribunda = document.getElementById('q-floribunda');
+
+const aFloribunda = document.getElementById('a-floribunda');
+
+// Show hidden DIV on click
+qFloribunda.addEventListener('click', function handleClick() {
+    aFloribunda.style.visibility = 'visible';
+});
+
 const qRavel = document.getElementById('q-ravel');
 
 const aRavel = document.getElementsByClassName('ravel');
