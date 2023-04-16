@@ -90,15 +90,27 @@ body {
   padding: 0 20px;
 }
 
+#profile-pic {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 80%;
+}
+
 @media (min-width: 768px) {
   .main-content {
     margin: 0 80px;
   }
-}
 
-.main-content img {
-  margin-right: 20px;
-  float: left;
+  #profile-pic{
+    margin-top: 0;
+    width: 340px;
+    height: 460px;
+    margin-right: 20px;
+    float: left;
+  }
 }
 
 .main-content p a:link{
