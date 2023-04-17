@@ -14,3 +14,13 @@
 .answer{
     visibility: hidden;
 }
+
+.answer-no-display{
+    display: none;
+    font-weight: normal;
+    background-color: #b9c6c5;
+}
+
+.question-to-display:hover + .answer-no-display{
+    display: inline;
+}
