@@ -99,7 +99,7 @@ body {
   height: 80%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 760px) {
   .main-content {
     margin: 0 80px;
   }
