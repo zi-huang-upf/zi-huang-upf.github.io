@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Ma+Shan+Zheng&family=Montserrat:wght@300&family=Sacramento&display=swap');
 
 header {
-  background: url("../images/title-pic.png") no-repeat;
+  background: url("../images/title-pic.webp") no-repeat;
   background-size: cover;
   border-bottom: 1px solid #ddd;
   padding: 20px 0;
