@@ -97,6 +97,7 @@ body {
   margin-right: auto;
   width: 80%;
   height: 80%;
+  box-shadow: 0 0 10px lightgray;
 }
 
 @media (min-width: 760px) {
@@ -113,19 +114,19 @@ body {
   }
 }
 
-.main-content p a:link{
+.main-content a:link{
   text-decoration: none;
   background-color: #b9c6c5;
   color: black;
 }
 
-.main-content p a:visited{
+.main-content a:visited{
   text-decoration: none;
   background-color: #debea9;
   color: black;
 }
 
-.main-content p a:active{
+.main-content a:active{
   text-decoration: none;
   background-color: #dbdab0;
   color: black;
