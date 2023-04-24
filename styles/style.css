@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Ma+Shan+Zheng&family=Montserrat:wght@300&family=Sacramento&display=swap');
 
+/*Things in the header*/
 header {
   background: url("../images/title-pic.webp") no-repeat;
   background-size: cover;
@@ -22,6 +23,29 @@ header {
   text-align: center;
   color: white;
 }
+
+h1{
+  text-align: center;
+}
+
+.purple-underline {
+  text-decoration: underline;
+  text-decoration-color: purple;
+  font-family: 'Sacramento', cursive;
+}
+
+.yellow-underline {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  font-family: 'Sacramento', cursive;
+}
+
+.chinese{
+  font-family: 'Ma Shan Zheng', cursive;
+  font-weight: normal;
+}
+
+/*The nav bar*/
 
 .navcontainer {
   width: 100%;
@@ -57,26 +81,7 @@ nav a:hover {
   color: #666;
 }
 
-h1{
-  text-align: center;
-}
-
-.purple-underline {
-  text-decoration: underline;
-  text-decoration-color: purple;
-  font-family: 'Sacramento', cursive;
-}
-
-.yellow-underline {
-  text-decoration: underline;
-  text-decoration-color: yellow;
-  font-family: 'Sacramento', cursive;
-}
-
-.chinese{
-  font-family: 'Ma Shan Zheng', cursive;
-  font-weight: normal;
-}
+/*Body*/
 
 body {
   font-family: 'EB Garamond', serif;
@@ -100,7 +105,7 @@ body {
   box-shadow: 0 0 10px lightgray;
 }
 
-@media (min-width: 760px) {
+@media screen and (min-width: 760px) {
   .main-content {
     margin: 0 80px;
   }
@@ -120,6 +125,8 @@ body {
   color: black;
 }
 
+/*Links and selection*/
+
 .main-content a:visited{
   text-decoration: none;
   background-color: #debea9;
@@ -137,6 +144,8 @@ body {
   background-color: #dbdab0;
 }
 
+/*Notice box*/
+
 .noticecontainer{
   width: 70%;
   margin: 20px auto;
@@ -148,6 +157,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
+
+/*Regular content*/
 
 h2 {
   font-family: 'Montserrat', sans-serif;
@@ -166,6 +177,46 @@ p {
 .ptitle{
   font-weight: bold;
 }
+
+/*Grid*/
+.grid{
+  display: grid;
+}
+
+@media screen and (min-width: 760px){
+.grid--1x3{
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+}
+
+/*Blog cards*/
+.card{
+  max-width: 500px;
+  border-radius: 7px;
+  box-shadow: 0 0 10px lightgray;
+  overflow: hidden;
+  margin: 0 auto 20px;
+}
+
+.card__header,
+.card__body{
+  padding: 1rem 1.5rem;
+}
+
+.card__header{
+  background: linear-gradient(90deg, #b9c6c5 0%, #fff 100%);
+  color: #333;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card a{
+  display: inline-block;
+  margin: 1rem 0 0 0;
+}
+
+/*footer*/
 
 footer {
   background-color: #f2f2f2;
