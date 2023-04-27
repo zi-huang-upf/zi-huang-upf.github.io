@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Ma+Shan+Zheng&family=Montserrat:wght@300&family=Sacramento&display=swap');
 
 /*Things in the header*/
-header {
+.website_header {
   background: url("../images/title-pic.webp") no-repeat;
   background-size: cover;
   border-bottom: 1px solid #ddd;
@@ -102,6 +102,8 @@ body {
   margin-right: auto;
   width: 80%;
   height: 80%;
+  max-width: 340px;
+  max-height: 460px;
   box-shadow: 0 0 10px lightgray;
 }
 
@@ -119,21 +121,21 @@ body {
   }
 }
 
-.main-content a:link{
+/*Links and selection*/
+
+.main-content :not(.noticecontainer, .notice) a:link{
   text-decoration: none;
   background-color: #b9c6c5;
   color: black;
 }
 
-/*Links and selection*/
-
-.main-content a:visited{
+.main-content :not(.noticecontainer, .notice) a:visited{
   text-decoration: none;
   background-color: #debea9;
   color: black;
 }
 
-.main-content a:active{
+.main-content :not(.noticecontainer, .notice) a:active{
   text-decoration: none;
   background-color: #dbdab0;
   color: black;
@@ -214,6 +216,33 @@ p {
 .card a{
   display: inline-block;
   margin: 1rem 0 0 0;
+}
+
+/*Buttons*/
+.btn {
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: #b9c6c5;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto 10px;
+}
+
+.btn:hover{
+  filter: brightness(110%);
+}
+
+.btn a{
+  color: #333;
+  text-decoration: none;
+}
+
+/*Top bar of blog articles*/
+.blog_head_nav{
+  text-align: left;
 }
 
 /*footer*/
