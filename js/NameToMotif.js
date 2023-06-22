@@ -163,7 +163,7 @@ btnGerman.addEventListener("click", function() {
 
 btnMixed.addEventListener("click", function() {
     let inputName = inputArea.value;
-    inputName = inputName.match(reLetterOnly).join('').toLowerCase();
+    inputName = inputName.match(reMixed).join('').toLowerCase();
     outputMotif = turnMixed(inputName);
     outputArea.innerHTML = outputMotif.join('\n');
 });
