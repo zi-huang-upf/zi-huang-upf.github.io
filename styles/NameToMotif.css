@@ -1,0 +1,19 @@
+form {
+    width: 75%;
+    text-align: center;
+    margin: auto auto;
+}
+
+input {
+    width: 75%;
+}
+
+textarea {
+    resize: none;
+    width: 75%;
+}
+
+.form_box {
+    text-align: center;
+    margin: 1em;
+}
