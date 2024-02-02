@@ -8,6 +8,17 @@ qMinesweeper.addEventListener('click', function handleClick() {
     aMinesweeper.style.opacity = 1;
 });
 
+const qJustin = document.getElementById('q-justin');
+
+const aJustin = document.getElementById('a-justin');
+
+// Show hidden DIV on click
+qJustin.addEventListener('click', function handleClick() {
+    aJustin.style.visibility = 'visible';
+    aJustin.style.opacity = 1;
+});
+
+
 const qDuolingo = document.getElementById('q-duolingo');
 
 const aDuolingo = document.getElementById('a-duolingo');
