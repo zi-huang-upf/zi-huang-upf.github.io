@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Ma+Shan+Zheng&family=Montserrat:wght@300&family=Sacramento&display=swap');
+
+/* My color palette */
+/* Dark blue #304064 */
+/* Light blue #3e5c84 */
+/* Gray-blue #889bac*/
+
+/*Things in the header*/
+.cross_stitch_header {
+    background: url("../images/title-pic-jwst.webp") no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+  }
+
+.container {
+width: 100%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+text-align: center;
+}
+
+.logo {
+font-size: 30px;
+font-weight: bold;
+width: 100%;
+text-align: center;
+color: white;
+}
+
+h1{
+text-align: center;
+}
+
+.purple-underline {
+text-decoration: underline;
+text-decoration-color: purple;
+font-family: 'Sacramento', cursive;
+}
+
+.yellow-underline {
+text-decoration: underline;
+text-decoration-color: yellow;
+font-family: 'Sacramento', cursive;
+}
+
+.chinese{
+font-family: 'Ma Shan Zheng', cursive;
+font-weight: normal;
+}
+
+/*The nav bar*/
+
+nav {
+text-align: center;
+width: 100%;
+margin: auto auto;
+background-color: #f5f5f5;
+border-bottom: 1px solid #ddd;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+li {
+color: #333;
+background: #f5f5f5;
+display: inline-block;
+padding: 1rem;
+position: relative;
+text-decoration: none;
+transition-duration: 0.5s;
+}
+
+li a {
+color: #333;
+text-decoration: none;
+font-weight: bold;
+font-family: 'Montserrat', sans-serif;
+}
+
+li a:hover{
+color: #666;
+}
+
+li:hover {
+cursor: pointer;
+}
+
+ul li ul {
+visibility: hidden;
+opacity: 0;
+min-width: 5rem;
+position: absolute;
+transition: all 0.5s ease;
+margin-top: 1rem;
+left: 0;
+display: none;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+visibility: visible;
+opacity: 1;
+display: block;
+}
+
+ul li ul li {
+clear: both;
+border-bottom: 1px solid #ddd;
+width: 100%;
+}
+}
+
+/*Body*/
+
+body {
+    font-family: 'EB Garamond', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 0;
+    padding: 0 20px;
+    clear: both;
+}
+
+@media screen and (min-width: 760px) {
+    .main-content {
+      margin: 0 80px;
+    }
+  
+    #profile-pic{
+      margin-top: 0;
+      width: 340px;
+      height: 460px;
+      margin-right: 20px;
+      float: left;
+    }
+  }
+
+h2 {
+    text-align: left;
+    font-family: 'Sacramento';
+    color: #304064;
+    font-size: 3em;
+}
+
+/*Notice box*/
+
+.noticecontainer{
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px 20px;
+    background-color: #889bac;
+  }
+  
+  .notice{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #304064;
+  }
+
+/*Buttons*/
+.btn {
+border-radius: 20px;
+padding: 10px 20px;
+background-color: #889bac;
+border: none;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-family: 'Montserrat', sans-serif;
+margin: auto 10px;
+}
+
+.btn:hover{
+filter: brightness(110%);
+cursor: pointer;
+}
+
+.btn a{
+color: #333;
+text-decoration: none;
+}
+
+/*footer*/
+
+footer {
+background-color: #f2f2f2;
+color: #555;
+padding: 20px;
+text-align: center;
+font-size: 14px;
+font-family: 'Montserrat', sans-serif;
+}
