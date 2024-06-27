@@ -184,6 +184,12 @@ h2 {
     width: 100%;
     height: fit-content;
   }
+  .left-column{
+    margin:0%;
+  }
+  .right-column{
+    margin: 0%;
+  }
 }
 
 /* Clear floats after the columns */
@@ -205,6 +211,7 @@ h2 {
   position:absolute;
   left:0;
   top: 50%;
+  transform: translate(0, -50%);
   color:#304064;
   font-size: 3rem;
   display: block;
@@ -221,6 +228,7 @@ h2 {
   position:absolute;
   right: 0;
   top: 50%;
+  transform: translate(0, -50%);
   color:#304064;
   font-size: 3rem;
   display: block;
