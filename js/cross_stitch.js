@@ -69,3 +69,39 @@ function showDivs4(n) {
   }
   x[slideIndex4-1].style.display = "block";  
 }
+
+var slideIndex5 = 1;
+showDivs5(slideIndex5);
+
+function plusDivs5(n) {
+  showDivs5(slideIndex5 += n);
+}
+
+function showDivs5(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides5");
+  if (n > x.length) {slideIndex5 = 1}
+  if (n < 1) {slideIndex5 = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex5-1].style.display = "block";  
+}
+
+var slideIndex6 = 1;
+showDivs6(slideIndex6);
+
+function plusDivs6(n) {
+  showDivs6(slideIndex6 += n);
+}
+
+function showDivs6(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides6");
+  if (n > x.length) {slideIndex6 = 1}
+  if (n < 1) {slideIndex6 = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex6-1].style.display = "block";  
+}
