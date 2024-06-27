@@ -149,7 +149,126 @@ h2 {
     font-family: 'Sacramento';
     color: #304064;
     font-size: 3em;
+    text-align: center;
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.large-column {
+  width: 60%;
+  position: relative;
+  display: table-cell;
+}
+
+.small-column {
+  width: 35%;
+  position: relative;
+  display: table-cell;
+}
+
+.left-column{
+  float:left;
+  margin-right: 2%;
+}
+
+.right-column{
+  float: right;
+  margin-left: 2%;
+}
+
+@media screen and (max-width: 700px) {
+  .column {
+    width: 100%;
+    height: fit-content;
+  }
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+}
+
+/* Slide show */
+.slideshow-container{
+  width: 100%;
+  display: block;
+  position:relative;
+}
+
+.left-arrow{
+  position:absolute;
+  left:0;
+  top: 50%;
+  color:#304064;
+  font-size: 3rem;
+  display: block;
+  text-align: center;
+  padding-left: 1rem;
+}
+
+.left-arrow:hover{
+  color:#889bac;
+  cursor:pointer;
+}
+
+.right-arrow{
+  position:absolute;
+  right: 0;
+  top: 50%;
+  color:#304064;
+  font-size: 3rem;
+  display: block;
+  text-align: center;
+  padding-right: 1rem;
+}
+
+.right-arrow:hover{
+  color: #889bac;
+  cursor:pointer;
+}
+
+
+/* Description */
+
+.description-container{
+  font-size: 1rem;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin: 10px 10px;
+
+a:link {
+  text-decoration: none;
+  color: #889bac;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #304064;
+}
+
+::selection{
+  background-color: #889bac;
+  color: white;
+}
+}
+
+@media screen and (max-width: 700px) {
+  .description-container {
+    position: relative;
+    top:0;
+    transform: translate(0,0);
+    display: block;
+  }
+}
+
 
 /*Notice box*/
 
@@ -192,10 +311,10 @@ text-decoration: none;
 /*footer*/
 
 footer {
-background-color: #f2f2f2;
-color: #555;
-padding: 20px;
-text-align: center;
-font-size: 14px;
-font-family: 'Montserrat', sans-serif;
+  background-color: #f2f2f2;
+  color: #555;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
 }
