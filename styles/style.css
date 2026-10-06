@@ -153,25 +153,21 @@ body {
 /*Links and selection*/
 
 .main-content :not(.noticecontainer, .notice) a:link{
-  text-decoration: none;
-  background-color: #b9c6c5;
-  color: black;
+  text-decoration: underline;
+  color: #758c89;
 }
 
 .main-content :not(.noticecontainer, .notice) a:visited{
-  text-decoration: none;
-  background-color: #debea9;
-  color: black;
+  text-decoration: underline;
+  color: #dc9768;
 }
 
 .main-content :not(.noticecontainer, .notice) a:active{
-  text-decoration: none;
-  background-color: #dbdab0;
-  color: black;
+  text-decoration: underline;
+  color: #dbdab0;
 }
 
 ::selection{
-  color:black;
   background-color: #dbdab0;
 }
 
